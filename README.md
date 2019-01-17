@@ -1,0 +1,1 @@
+開啟一個sqs-example.ipynb，在裡面嘗試使用boto3套件連結至sqs進行 創建queue，丟message進入queue，從queue拉出message，刪除在queue裡的message
