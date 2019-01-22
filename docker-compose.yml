@@ -56,3 +56,11 @@ services:
     container_name: cc104.sqs.local
     ports:
       - 9324:9324
+
+
+
+  fakes3:
+    build: ./fakes3dockerfile/
+    container_name: cc104.s3.local
+    volumes:
+      - ./data_s3:/fakes3_root
